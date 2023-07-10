@@ -1,0 +1,58 @@
+{
+	"name": "World 3",
+	"width": 32,
+	"height": 10,
+	"background-color": [130, 182, 255],
+	"background-img": "assets/backgrounds/night_moon.png",
+	"background-position": "bottom",
+	"background-repeat-x": 1,
+	"background-fill-y": 1,
+	"scenery-img": "",
+	"scenery-position": "bottom",
+	"scenery-repeat-x": 1,
+	"scenery-fill-y": 1,
+	"music": "assets/sounds/rick_y_morty_nivel_3.ogg",
+	"start": [4, 8],
+	"gravity": 1.0,
+	"terminal-velocity": 32,
+	"blocks": [[0, 9, "TM"], [1, 9, "TM"], [2, 9, "TM"], [3, 9, "TM"], [4, 9, "TM"],
+	           [5, 9, "TM"], [6, 9, "TM"], [7, 9, "TM"], [8, 9, "TM"], [9, 9, "TM"],
+						 [10, 9, "TM"], [11, 9, "TM"], [12, 9, "TM"], [13, 9, "TM"], [14, 9, "TM"],
+						 [15, 9, "TM"], [16, 9, "TM"], [17, 9, "TM"], [18, 9, "TM"], [19, 9, "TM"],
+						 [20, 9, "TM"], [21, 9, "TM"], [22, 9, "TM"], [23, 9, "TM"], [24, 9, "TM"],
+						 [25, 9, "TM"], [26, 9, "TM"], [27, 9, "TM"], [28, 9, "TM"], [29, 9, "TM"],
+						 [30, 9, "TM"], [31, 9, "TM"],
+
+						 [2, 8, "TM"],
+
+						 [9, 8, "TM"],
+						
+						[11, 7, "LF"],
+					
+						[13, 6, "EL"],[14,6,"TM"],[15,6,"TM"],[16, 6, "ER"],
+
+						[17, 5, "LF"],
+
+						[18, 4, "LF"],
+
+						[15, 3, "LF"],
+
+						[13, 2, "ER"],[12, 2, "TM"],[11, 2, "TM"],[10, 2, "EL"],
+
+						[20, 2, "TM"], [21, 3, "TM"], [22, 3, "TM"], [23, 3, "TM"], [24, 3, "TM"], [25, 3, "TM"], [26, 3, "TM"], [27, 2, "TM"],
+
+						[28, 8, "CN"], [28, 7, "CN"], [28, 6, "CN"], [28, 5, "CN"]
+
+			],
+
+
+
+
+	"aliens": [[22, 2], [13, 8],[22,8],[27,8],[14,5],[3,8],[6,8]],
+	"monsters": [[21, 2],[26, 2],[13, 5],[13,1]],
+	"boss":[[24,2]],
+  "coins": [[13, 1], [16, 4], [18, 2], [24, 6], [26,5]],
+	"oneups": [[7, 4]],
+	"hearts": [[12, 1],[20, 1]],
+	"flag": [[30, 6]]
+}

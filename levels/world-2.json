@@ -1,0 +1,48 @@
+{
+	"name": "World 2",
+	"width": 32,
+	"height": 10,
+	"background-color": [130, 182, 255],
+	"background-img": "assets/backgrounds/forest_1.png",
+	"background-position": "bottom",
+	"background-repeat-x": 1,
+	"background-fill-y": 1,
+	"scenery-img": "",
+	"scenery-position": "bottom",
+	"scenery-repeat-x": 1,
+	"scenery-fill-y": 1,
+	"music": "assets/sounds/rick_y_morty_nivel_2.ogg",
+	"start": [4, 8],
+	"gravity": 1.0,
+	"terminal-velocity": 32,
+	"blocks": [[0, 9, "TM"], [1, 9, "TM"], [2, 9, "TM"], [3, 9, "TM"], [4, 9, "TM"],
+	           [5, 9, "TM"], [6, 9, "TM"], [7, 9, "TM"], [8, 9, "TM"], [9, 9, "TM"],
+						 [10, 9, "TM"], [11, 9, "TM"], [12, 9, "TM"], [13, 9, "TM"], [14, 9, "TM"],
+						 [15, 9, "TM"], [16, 9, "TM"], [17, 9, "TM"], [18, 9, "TM"], [19, 9, "TM"],
+						 [20, 9, "TM"], [21, 9, "TM"], [22, 9, "TM"], [23, 9, "TM"], [24, 9, "TM"],
+						 [25, 9, "TM"], [26, 9, "TM"], [27, 9, "TM"], [28, 9, "TM"], [29, 9, "TM"],
+						 [30, 9, "TM"], [31, 9, "TM"],
+
+						 [3, 7, "LF"],
+
+						 [5, 5, "EL"], [6, 5, "ER"],
+
+						 [8, 3, "LF"], [10, 1, "LF"],
+
+						 [12, 2, "EL"], [13, 2, "TM"], [14, 2, "TM"], [15, 2, "ER"],
+
+						 [17, 4, "LF"], [16, 6, "ER"], [15, 6, "TM"], [14, 6, "EL"],
+
+						 [19, 4, "LF"], [22, 4, "LF"], [24, 3, "LF"],
+
+						 [25, 6, "LF"], [26, 3, "LF"], [28, 2, "LF"]
+
+
+						 ],
+	"aliens": [[8, 4], [13, 8]],
+	"monsters": [[15, 1], [13, 1], [5, 5], [15, 5]],
+  "coins": [[5, 4], [8, 2], [14, 1], [22, 8], [26, 6]],
+	"oneups": [[7, 4]],
+	"hearts": [[18, 2], [25, 4]],
+	"flag": [[30, 1]]
+}
